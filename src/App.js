@@ -1,11 +1,17 @@
 import './App.css';
-import Header from './components/Header'
-import Nav from './components/Nav';
+import Ballance from './components/Ballance';
+import Header from './components/Header';
+import IncomeExpenses from './components/IncomeExpenses';
+
+
 function App() {
   return (
     <div>
       <Header />
-      <Nav />
+      <div className="container">
+        <Ballance />
+        <IncomeExpenses />
+      </div>
     </div>
   );
 }

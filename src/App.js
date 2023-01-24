@@ -1,4 +1,5 @@
 import './App.css';
+import AddTransaction from './components/AddTransaction';
 import Ballance from './components/Ballance';
 import Header from './components/Header';
 import IncomeExpenses from './components/IncomeExpenses';
@@ -13,6 +14,7 @@ function App() {
         <Ballance />
         <IncomeExpenses />
         <TransactionList />
+        <AddTransaction />
       </div>
     </div>
   );

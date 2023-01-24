@@ -2,7 +2,7 @@
 const Header = () => {
     return (
         <h2>
-           Expense tracker 
+           Expense Tracker 
         </h2>
     );
 }

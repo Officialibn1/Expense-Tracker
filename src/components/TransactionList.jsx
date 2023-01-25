@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { GolbalContext } from "../context/GlobalState";
+import { GlobalContext } from "../context/GlobalState";
 import Transaction from "./Transaction";
 
 const TransactionList = () => {
-    const {transactions} = useContext(GolbalContext);
+    const {transactions} = useContext(GlobalContext);
 
 
 

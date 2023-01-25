@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { GolbalContext } from "../context/GlobalState";
+import { GlobalContext } from "../context/GlobalState";
 
 const Ballance = () => {
-    const {transactions} = useContext(GolbalContext);
+    const {transactions} = useContext(GlobalContext);
 
     const amounts = transactions.map(transaction => transaction.amount)
 

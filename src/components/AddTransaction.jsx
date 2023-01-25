@@ -24,6 +24,7 @@ const AddTransaction = () => {
                     onChange={(e) => setAmount(e.target.value)}
                     placeholder="Enter Amount...."   />
                 </div>
+                <button className="btn" >Add Transaction</button>
             </form>
 
         </>
